@@ -262,7 +262,7 @@ INSERT INTO `personal_access_tokens` (`id`, `tokenable_type`, `tokenable_id`, `n
 -- --------------------------------------------------------
 
 --
--- Table structure for table `priorities`
+-- Table structure for table `priorities`  
 --
 
 CREATE TABLE `priorities` (
@@ -630,6 +630,7 @@ ALTER TABLE `ticket_replies`
   ADD KEY `ticket_replies_ticket_id_foreign` (`ticket_id`),
   ADD KEY `ticket_replies_user_id_foreign` (`user_id`);
 
+  
 --
 -- Indexes for table `users`
 --
